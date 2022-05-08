@@ -14,6 +14,12 @@ HTML(HyperText Markup Language) 不是一门编程语言，而是一种用来告
 ```angular2html
 <p>这是一个HTML的 p 标签元素</p>
 ```
+#### HTML 基础教程
++ [HTML 简介](https://www.w3school.com.cn/html/html_jianjie.asp)
++ [HTML 编辑器](https://www.w3school.com.cn/html/html_editors.asp)
++ [基本的 HTML 标签](https://www.w3school.com.cn/html/html_basic.asp)
++ [HTML 元素](https://www.w3school.com.cn/html/html_elements.asp)
++ 
 ### CSS
 ### JavaScript
 #### JavaScript 简单教程
@@ -92,6 +98,112 @@ HTML(HyperText Markup Language) 不是一门编程语言，而是一种用来告
   - 自动字符串转换：当您试图“输出”对象或变量时，JavaScript 自动调用变量的 `toString()` 函数
 + [JavaScript 位运算符](https://www.w3school.com.cn/js/js_bitwise.asp)
 + [JavaScript 正则表达式](https://www.w3school.com.cn/js/js_regexp.asp)：正则表达式是构成搜索模式的字符序列，该搜索模式可用于文本搜索和文本替换操作
+  - `search()`;
+  - `replace()`;
+  - `test()`;
+  - `exec()`;
++ [JavaScript 错误 - Throw 和 Try to Catch](https://www.w3school.com.cn/js/js_errors.asp)
+  - `try` 语句使您能够测试代码块中的错误;
+  - `catch` 语句允许您处理错误;
+  - `throw` 语句允许您创建自定义错误;
+  - `finally` 使您能够执行代码，在 `try` 和 `catch` 之后，无论结果如何;
+  - `EvalError` ---> `SyntaxError`
+  - `RangeError`;
+  - `ReferenceError`;
+  - `TypeError`;
+  - `URIError`;
++ [JavaScript 作用域](https://www.w3school.com.cn/js/js_scope.asp)：指的是您有权访问的变量集合，作用域决定了从代码不同部分对**变量**、**对象**和**函数**的可访问性。
+  - 全局作用域：全局作用域形成了完整的 JavaScript 环境，在 HTML 中，全局作用域是 window，所有全局变量均属于 window 对象;
+  - 局部作用域;
+  - JavaScript 函数作用域;
+  - 自动全局：如果您为**尚未声明**(未使用 `var`, `let`, `const` 关键字)的变量赋值，此变量会自动成为全局变量;
++ [JavaScript Hoisting](https://www.w3school.com.cn/js/js_hoisting.asp)：提升（Hoisting）是 JavaScript 将声明移至顶部的默认行为
++ [JavaScript 严格模式](https://www.w3school.com.cn/js/js_strict.asp)：`use strict` 定义 JavaScript 代码应该以“严格模式”执行，例如：在严格模式中，您无法使用未声明的变量
++ [JavaScript this 关键词](https://www.w3school.com.cn/js/js_this.asp)：JavaScript `this` 关键词指的是它所属的对象
+  - 方法中的 `this`：指的是此方法的“拥有者”;
+  - 单独的 `this`：全局对象，在浏览器窗口中，全局对象是 `[object Window]`;
+  - 函数中的 `this`（默认）：指的是全局对象 `[object Window]`;
+  - 函数中的 `this`（严格模式）：是未定义的（`undefined`）;
+  - 事件处理程序中的 `this`：在 HTML 事件处理程序中，`this` 指的是接收此事件的 HTML 元素;
+  - 对象方法绑定;
+  - 显式函数绑定;
++ [JavaScript 箭头函数](https://www.w3school.com.cn/js/js_arrow_function.asp)
++ [JavaScript 类](https://www.w3school.com.cn/js/js_classes.asp)：JavaScript 类是 JavaScript 对象的模板
+  - `constructor()`;
++ [JavaScript JSON(JavaScript Object Notation)](https://www.w3school.com.cn/js/js_json.asp)：JSON 是存储和传输数据的格式，经常在数据从服务器发送到网页时使用
+  - JSON 语法规则;
++ [JavaScript 调试](https://www.w3school.com.cn/js/js_debugging.asp)
++ [JavaScript 样式指南](https://www.w3school.com.cn/js/js_conventions.asp)
+  - 变量名;
+  - 运算符周围的空格;
+  - 代码缩进;
+  - 语句规则;
+  - 对象规则;
+  - 行长度小于 80;
+  - 命名约定;
+  - 在 HTML 中加载 JavaScript;
+  - 使用小写文件名;
++ [JavaScript 常见错误](https://www.w3school.com.cn/js/js_mistakes.asp)
+  - 意外使用赋值运算符;
+  - 期望松散的比较：有一个常见的错误是忘记在 switch 语句中使用严格比较;
+  - 令人困惑的加法和级联;
+  - 令人误解的浮点;
+  - 对 JavaScript 字符串换行;
+  - 错位的分号;
+  - 对 return 语句进行换行;
+  - `undefined` 不是 `null`;
++ [JavaScript 性能](https://www.w3school.com.cn/js/js_performance.asp)
+  - 减少循环中的活动;
+  - 减少 DOM 访问;
+  - 缩减 DOM 规模;
+  - 避免不必要的变量;
+  - 延迟 JavaScript 加载：请把脚本放在页面底部，使浏览器首先加载页面;
+  - 避免使用 with;
++ [JavaScript 保留字](https://www.w3school.com.cn/js/js_reserved.asp)
+#### [JavaScript 版本](https://www.w3school.com.cn/js/js_versions.asp)
++ [JavaScript ES5](https://www.w3school.com.cn/js/js_es5.asp)
++ [JavaScript ES6](https://www.w3school.com.cn/js/js_es6.asp)
++ [JavaScript 历史](https://www.w3school.com.cn/js/js_history.asp)
+#### JavaScript 对象
++ [JavaScript 对象定义](https://www.w3school.com.cn/js/js_object_definition.asp)
+  - JavaScript 原始值： string, number, boolean, null, undefined;
+  - 对象是包含变量的变量：**名称 : 值**对的形式编写;
+  - 对象属性：JavaScript 对象中的命名值，被称为属性;
+  - 对象方法：方法是可以在对象上执行的动作;
+  - 创建 JavaScript 对象
+    - 使用对象字面量;
+    - 使用 JavaScript 关键词 `new`:出于简易性、可读性和执行速度的考虑，请使用第一种创建方法（对象文字方法）;
+  - JavaScript 对象是易变的：它们通过**引用**来寻址，而非值;
++ [JavaScript 对象属性](https://www.w3school.com.cn/js/js_object_properties.asp)
+  - 访问 JavaScript 属性;
+  - JavaScript `for...in` 循环;
+  - 添加新属性;
+  - 删除属性;
++ [JavaScript 对象方法](https://www.w3school.com.cn/js/js_object_methods.asp)：方法是存储为对象属性的函数。
+  - 访问对象方法;
+  - 使用内建方法;
+  - 添加新的方法：向对象添加方法是在构造器函数内部完成的；
++ [JavaScript 显示对象](https://www.w3school.com.cn/js/js_object_display.asp)
+  - 使用 `Object.values()`;
+  - 使用 `JSON.stringify()`;
++ [JavaScript 对象访问器](https://www.w3school.com.cn/js/js_object_accessors.asp)
++ [JavaScript 对象构造器](https://www.w3school.com.cn/js/js_object_constructors.asp)
+  - 对象类型（蓝图）（类）：用大写首字母对构造器函数命名是个好习惯;
++ [JavaScript 对象原型](https://www.w3school.com.cn/js/js_object_prototypes.asp)：所有 JavaScript 对象都从原型继承属性和方法
+  - 原型继承：日期对象继承自 `Date.prototype`,数组对象继承自 `Array.prototype`,`Object.prototype` 位于原型继承链的顶端；
+  - 使用 prototype 属性;
++ [JavaScript ES5 对象方法](https://www.w3school.com.cn/js/js_object_es5.asp)
+  - 管理对象;
+  - 保护对象;
+  - 更改属性值;
+  - 更改元数据;
+  - 列出可枚举的属性;
+  - 添加属性;
+  - 添加 Getter 和 Setter;
++ [JavaScript `Map` 对象](https://www.w3school.com.cn/js/js_object_maps.asp)
++ [JavaScript `Set` 对象](https://www.w3school.com.cn/js/js_object_sets.asp)
+#### JavaScript 函数
+
 #### JavaScript 的重要总结
 + 所有 JavaScript 对象都拥有 `toString()` 方法；
 + `sort()` 方法是最强大的数组方法之一，默认地，`sort()` 函数按照字符串顺序对值进行排序，对于数值排序，需要加上一个**比值函数**，按照**比值函数**的结果对数组进行特定排序；
@@ -103,4 +215,15 @@ HTML(HyperText Markup Language) 不是一门编程语言，而是一种用来告
 + `switch case` 使用严格比较（===）: 值必须与要匹配的类型相同，只有操作数属于同一类型时，严格比较才能为 true；
 + 您可以检查 `constructor` 属性以确定对象是否为数组（包含 "`Array`" 一词）；
 + 使用 `null` 来清除对象，使用 `undefined` 来清除原始值；
++ 为了避免 bug，请始终在每个作用域的开头声明所有变量；
++ JavaScript 类中，请始终添加 constructor() 方法；
++ 请避免**全局变量**、`new`、`===`、`eval()`(`eval()` 函数用于将文本作为代码来允许)，意识到自动类型转换，用 default 来结束 switch；
++ JavaScript 变量不是**易变**的。只有 JavaScript 对象如此；
++ 请使用对象字面量 `{}` 代替 `new Object()`；
++ 请使用字符串字面量 `""` 代替 `new String()`；
++ 请使用数值字面量代替 `new Number()`;
++ 请使用布尔字面量代替 `new Boolean()`;
++ 请使用数组字面量 `[]` 代替 `new Array()`;
++ 请使用模式字面量代替 `new RexExp()`;
++ 请使用函数表达式 `() {}` 代替 `new Function()`;
 + 
